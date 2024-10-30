@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Damir D. Dzhafarov</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39759232-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-39759232-1');
+	</script>
+	<link id="main" rel="stylesheet" href="./css/main.css">
+	<link id="menu" rel="stylesheet" href="./css/menu-closed.css">
+	<script type="text/javascript">
+		function styleMenu(url) {
+			document.getElementById('menu').href = url;
+		}
+
+		function openMenu(){
+			styleMenu('./css/menu-open.css');
+		}
+
+		function closeMenu(){
+			styleMenu('./css/menu-closed.css');
+		}
+
+		function toggleMenu(){
+			if (document.getElementById('menu').getAttribute('href') == './css/menu-closed.css'){
+				openMenu();
+			}
+			else {
+				closeMenu();
+			}
+		}
+
+		function menuOnResize() {
+			if(document.documentElement.clientWidth > 700){
+				styleMenu('./css/menu-closed.css');
+			}
+		}
+
+		window.addEventListener("resize", menuOnResize);
+	</script>
+</head>
+<body ontouchstart="">
+  <div id="container">
+
+		<div id="hamburger" class="hamburger" onclick="toggleMenu()">&#9776;</div>
+		<div id="menu" class="menu">
+			<div id="menu-aligner" class="menu-aligner">
+				<div id="index" class="menu-item" onclick="window.location.href=this.id+'.html'">Home</div>
+				<div id="research" class="menu-item" onclick="window.location.href=this.id+'.html'">Publications</div>
+				<div id="talks" class="menu-item" onclick="window.location.href=this.id+'.html'">Talks</div>
+				<div id="teaching" class="menu-item" onclick="window.location.href=this.id+'.html'">Teaching</div>
+				<div id="mentorship" class="menu-item" onclick="window.location.href=this.id+'.html'">Students & Postdocs</div>
+				<div id="links" class="menu-item" onclick="window.location.href=this.id+'.html'">Links</div>
+				<div id="artwork" class="menu-item" onclick="window.location.href=this.id+'.html'">Artwork</div>
+			</div>
+		</div>
+
+    <div id="content" onclick="closeMenu()">
+
+			<h2>Mentorship</h2>
+
+			<h3>Postdoctoral fellows mentored</h3>
+
+			<ul>
+
+				<li><a href="https://www.ericastor.info/index.html" target="_blank">Eric P. Astor</a>, 2015&#8211;2018; now Software Engineer at Google.</li>
+
+				<li><a href="http://www.personal.psu.edu/lzw299/" target="_blank">Linda Brown Westrick</a>, 2014&#8211;2018; now Assistant Professor of Mathematics at Pennsylvania State University.</li>
+
+			</ul>
+
+			<h3>Graduate students supervised</h3>
+
+			<ul>
+
+				<li><a href="https://math.uconn.edu/person/heidi-benham/" target="_blank">Heidi Benham</a>, 2022&#8211;present.</li>
+
+				<li><a href="https://javavillano.crd.co" target="_blank">Java Darleen Villano</a>, 2022&#8211;present (co-advised with <a href="https://www2.math.uconn.edu/~solomon/" target="_blank">Reed Solomon</a>).</li>
+
+				<li><a href="https://adelapo.github.io" target="_blank">Andrew DeLapo</a>, 2022&#8211;present (co-advised with <a href="https://www2.math.uconn.edu/~solomon/" target="_blank">Reed Solomon</a>).</li>
+
+				<li><a href="https://nahughes.github.io/" target="_blank">Noah Hughes</a>, 2015&#8211;2021; now Assistant Professor of Mathematics at Winston-Salem State University.</li>
+
+				<li><a href="http://www.davidmathlogic.com/" target="_blank">David Nichols</a>, 2013&#8211;2019; now Director of Product Management at Stemify.</li>
+
+			</ul>
+
+			<h3>Honors theses supervised</h3>
+
+			<ul>
+
+				<li><a href="" target="_blank">Neil A. Dokurno</a>, 2016&#8211;2017.</li>
+
+			</ul>
+
+		</div>
+
+  </div>
+</body>
+</html>

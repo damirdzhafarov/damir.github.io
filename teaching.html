@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Damir D. Dzhafarov</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39759232-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-39759232-1');
+	</script>
+	<link id="main" rel="stylesheet" href="./css/main.css">
+	<link id="menu" rel="stylesheet" href="./css/menu-closed.css">
+	<script type="text/javascript">
+		function styleMenu(url) {
+			document.getElementById('menu').href = url;
+		}
+
+		function openMenu(){
+			styleMenu('./css/menu-open.css');
+		}
+
+		function closeMenu(){
+			styleMenu('./css/menu-closed.css');
+		}
+
+		function toggleMenu(){
+			if (document.getElementById('menu').getAttribute('href') == './css/menu-closed.css'){
+				openMenu();
+			}
+			else {
+				closeMenu();
+			}
+		}
+
+		function menuOnResize() {
+			if(document.documentElement.clientWidth > 700){
+				styleMenu('./css/menu-closed.css');
+			}
+		}
+
+		window.addEventListener("resize", menuOnResize);
+	</script>
+</head>
+<body ontouchstart="">
+  <div id="container">
+
+		<div id="hamburger" class="hamburger" onclick="toggleMenu()">&#9776;</div>
+		<div id="menu" class="menu">
+			<div id="menu-aligner" class="menu-aligner">
+				<div id="index" class="menu-item" onclick="window.location.href=this.id+'.html'">Home</div>
+				<div id="research" class="menu-item" onclick="window.location.href=this.id+'.html'">Publications</div>
+				<div id="talks" class="menu-item" onclick="window.location.href=this.id+'.html'">Talks</div>
+				<div id="teaching" class="menu-item" onclick="window.location.href=this.id+'.html'">Teaching</div>
+				<div id="mentorship" class="menu-item" onclick="window.location.href=this.id+'.html'">Students & Postdocs</div>
+				<div id="links" class="menu-item" onclick="window.location.href=this.id+'.html'">Links</div>
+				<div id="artwork" class="menu-item" onclick="window.location.href=this.id+'.html'">Artwork</div>
+			</div>
+		</div>
+
+    <div id="content" onclick="closeMenu()">
+
+			<h2>Teaching</h2>
+
+			<h3>Current courses</h3>
+
+			<ul>
+				<li>Math 5026, Computability Theory, University of Connecticyut, Fall 2024.</li>
+			</ul>
+
+			<h3>Previous graduate courses</h3>
+
+			<ul>
+
+				<li>Math 5026, Set Theory, University of Connecticyut, Spring 2024.</li>
+
+				<li>Math 5026, Weihrauch Degrees, University of Connecticyut, Spring 2023.</li>
+
+				<li>Math 5026, Descriptive Set Theory, University of Connecticut, Spring 2022.</li>
+
+				<li>Math 5260, Mathematical Logic I, University of Connecticut, Fall 2020.</li>
+
+				<li>Math 5026, Model Theory, University of Connecticut, Fall 2019.</li>
+
+				<li>Math 5026, Computable Combinatorics, University of Connecticut, Spring 2019.</li>
+
+				<li>Math 5260, Mathematical Logic I, University of Connecticut, Spring 2018.</li>
+
+				<li>Math 5026, Randomness and Complexity, University of Connecticut, Fall 2016.</li>
+
+				<li>Math 5026, Model Theory, University of Connecticut, Fall 2015.</li>
+
+				<li>Math 5026, Reverse Mathematics, University of Connecticut, Spring 2014.</li>
+
+			</ul>
+
+			<h3>Previous undergraduate courses</h3>
+
+			<ul>
+
+				<li>Math 2210Q, Applied Linear Algebra, University of Connecticyut, Fall 2023.</li>
+
+				<li>Math 3260, Introduction to Mathematical Logic, University of Connecticut, Spring 2023.</li>
+
+				<li>Math 1132Q, Calculus II, University of Connecticut, Fall 2022.</li>
+
+				<li>Math 2210Q, Applied Linear Algebra, University of Connecticut, Spring 2022.</li>
+
+				<li>Math 2210Q, Applied Linear Algebra, University of Connecticut, Fall 2020.</li>
+
+				<li>Math 2710W, Transition to Advanced Mathematics, University of Connecticut, Fall 2019.</li>
+
+				<li>Math 3260, Introduction to Mathematical Logic, University of Connecticut, Spring 2019.</li>
+
+				<li>Math 2710W, Transition to Advanced Mathematics, University of Connecticut, Spring 2018.</li>
+
+				<li>Math 2710, Transition to Advanced Mathematics, University of Connecticut, Fall 2017.</li>
+
+				<li>Math 1132Q, Calculus II, University of Connecticut, Fall 2017.</li>
+
+				<li>Math 2710, Transition to Advanced Mathematics, University of Connecticut, Spring 2017.</li>
+
+				<li>Math 2710, Transition to Advanced Mathematics, University of Connecticut, Spring 2016.</li>
+
+				<li>Math 2710, Transition to Advanced Mathematics, University of Connecticut, Fall 2015.</li>
+
+				<li>Math 3260, Introduction to Mathematical Logic, University of Connecticut, Spring 2015.</li>
+
+				<li>Math 1071Q, Calculus for Business and Economics, University of Connecticut, Fall 2014.</li>
+
+				<li>Math 1132Q, Calculus II, University of Connecticut, Fall 2014.</li>
+
+				<li>Math 1152Q, Honors Calculus II, University of Connecticut, Fall 2013.</li>
+
+				<li>Math 10360, Calculus B for Life Sciences, University of Notre Dame, Spring 2012.</li>
+
+				<li>Math 10350, Calculus A for Life Sciences, University of Notre Dame, Fall 2011.</li>
+
+				<li>Math 112, Number Theory for College Students, University of Chicago, Spring 2011.</li>
+
+				<li>Math 113, Geometry for College Students, University of Chicago, Winter 2011.</li>
+
+				<li>Math 112, Number Theory for College Students, University of Chicago, Fall 2010.</li>
+
+				<li>Math 112, Number Theory for College Students, University of Chicago, Spring 2009.</li>
+
+				<li>Math 153, Calculus 3, University of Chicago, Winter 2009.</li>
+
+				<li>Math 152, Calculus 2, University of Chicago, Fall 2008.</li>
+
+			</ul>
+
+		</div>
+
+  </div>
+</body>
+</html>

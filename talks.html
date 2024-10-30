@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Damir D. Dzhafarov</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39759232-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-39759232-1');
+	</script>
+	<link id="main" rel="stylesheet" href="./css/main.css">
+	<link id="menu" rel="stylesheet" href="./css/menu-closed.css">
+	<script type="text/javascript">
+		function styleMenu(url) {
+			document.getElementById('menu').href = url;
+		}
+
+		function openMenu(){
+			styleMenu('./css/menu-open.css');
+		}
+
+		function closeMenu(){
+			styleMenu('./css/menu-closed.css');
+		}
+
+		function toggleMenu(){
+			if (document.getElementById('menu').getAttribute('href') == './css/menu-closed.css'){
+				openMenu();
+			}
+			else {
+				closeMenu();
+			}
+		}
+
+		function menuOnResize() {
+			if(document.documentElement.clientWidth > 700){
+				styleMenu('./css/menu-closed.css');
+			}
+		}
+
+		window.addEventListener("resize", menuOnResize);
+	</script>
+</head>
+<body ontouchstart="">
+  <div id="container">
+
+		<div id="hamburger" class="hamburger" onclick="toggleMenu()">&#9776;</div>
+		<div id="menu" class="menu">
+			<div id="menu-aligner" class="menu-aligner">
+				<div id="index" class="menu-item" onclick="window.location.href=this.id+'.html'">Home</div>
+				<div id="research" class="menu-item" onclick="window.location.href=this.id+'.html'">Publications</div>
+				<div id="talks" class="menu-item" onclick="window.location.href=this.id+'.html'">Talks</div>
+				<div id="teaching" class="menu-item" onclick="window.location.href=this.id+'.html'">Teaching</div>
+				<div id="mentorship" class="menu-item" onclick="window.location.href=this.id+'.html'">Students & Postdocs</div>
+				<div id="links" class="menu-item" onclick="window.location.href=this.id+'.html'">Links</div>
+				<div id="artwork" class="menu-item" onclick="window.location.href=this.id+'.html'">Artwork</div>
+			</div>
+		</div>
+
+    <div id="content" onclick="closeMenu()">
+
+			<h2>Talks</h2>
+
+			<h3>Tutorials and expository talks</h3>
+
+			<ol>
+
+				<li>Graduate seminar on Reverse mathematics of combinatorial problems.<br>
+					Università di Udine, July 2020. <a href="talks/udine.pdf">(Notes.)</a></li>
+
+				<li>Advanced Research Initiative Speaker.<br>
+				Marshall University, April 2017. <a href="talks/marshall1.pdf" target="blank">(Talk 1 Slides.)</a> <a href="talks/marshall2.pdf" target="blank">(Talk 2 Slides.)</a></li>
+
+			</ol>
+
+			<h3>Research talks</h3>
+
+			<ol>
+
+				<li>
+					Workshop on Ramsey Theory in Logic, Combinatorics, and Complexity.<br>
+					University of Pisa, Italy, June 2024.
+				</li>
+
+				<li>ASL Annual North American Meeting, Special Session on Computability Theory.<br>
+					Iowa State University, May 2024.
+				</li>
+
+				<li>AMS Spring Central Sectional Meeting, Special Session on Computability Theory.<br>
+					University of Wisconsin-Milwaukee, April 2024.
+				</li>
+
+				<li>
+					CUNY Logic Workshop.<br>
+					City University of New York Graduate Center, February 2024.
+				</li>
+
+				<li>AMS Special Session on Computable Mathematics: A Special Session Dedicated to Martin D. Davis.<br>
+					San Francisco, January 2024.
+				</li>
+
+				<li>Twentieth International Conference on Computability and Complexity in Analysis.<br>
+					Dubrovnik, Croatia, September 2023.
+				</li>
+
+				<li>
+					From omega to Omega.<br>
+					Institute for Mathematical Sciences, National University of Singapore, June 2023.
+				</li>
+
+				<li>
+					AMS Spring Southeastern Sectional Meeting, Special Session on Logic, Combinatorics, and their Interactions.<br>
+					Georgia Institute of Technology, March 2023.
+				</li>
+
+				<li>
+					Plenary Speaker, SouthEAstern Logic Symposium (SEALS).<br>
+					University of Florida, March 2023.
+				</li>
+
+				<li>
+					Workshop on Mathematical Indispensability in Philosophy.<br>
+					Munich Center for Mathematical Philosophy, February 2023. 
+				</li>
+
+				<li>
+					Plenary Speaker, Computability in Europe (CiE) 2022, Swansea University, Swansea, UK, July 2022.
+				</li>
+
+				<li>
+					ASL Annual North American Meeting, Special Session on Computability Theory.<br>
+					Cornell University, April 2022.
+				</li>
+
+				<li>
+					Logic Seminar.<br>
+					Pennsylvania State University, April 2022.</li>
+
+				<li>
+						Cross-Alps Logic Seminar.<br>
+						Logic Groups of the Universities of Genoa, Lausanne, Turin, and Udine, Italy and Switzerland, March 2022.
+				</li>
+
+				<li>
+						New directions in computability theory.<br>
+						Centre International de Rencontres Math ́ematiques (CIRM), Luminy, France, March 2022.
+				</li>
+
+				<li>
+						Leeds-Ghent Virtual Logic Seminar.<br>
+						University of Leeds, November 2021. <a href="talks/leeds21.pdf">(Slides.)</a>
+				</li>
+
+				<li>
+					Institute of Mathematics Logic Seminar.<br>
+						Academy of Sciences of the Czech Republic, Prague, November 2021. <A href="talks/AvCR21.pdf">(Slides.)</a>
+				</li>
+
+				<li>
+					Seminar on Theory of Computing.<br>
+						Charles University, Prague, October 2021.
+				</li>
+
+				<li>V&yacute;jezdn&iacute; zased&aacute;n&iacute; KITML MFF UK.<br>
+					Charles University, Prague, September 2021.</li>
+
+				<li>Models of Peano Arithemtic Seminar.<br>
+					City University of New York Graduate Center, March 2021.</li>
+
+				<li>Plenary Speaker, SouthEAstern Logic Symposium (SEALS).<br>
+				University of Florida, February 2021. <A href="talks/SEALS21.pdf">(Slides.)</a></li>
+
+				<li>Iowa Colloquium on Information, Complexity, and Logic.<br>
+					Drake University/Grinnell College/Iowa State University, October 2020. <a href="talks/ICICL.pdf">(Slides.)</a></li>
+
+				<li>MSRI Workshop on Decidability, definability and computability in number theory.<br>
+					Mathematical Sciences Research Institute (MSRI), October 2020.</li>
+
+				<li>Online Logic Seminar.<br>
+					Southern Illinois University, August 2020.</li>
+
+				<li>Secret Computability Meeting.<br>
+					Institut Henri Poincar&eacute;, Paris, February 2020.</li>
+
+				<li>Canadian Mathematical Society Winter Meeting, Special Session on Computability Theory.<br>
+				Toronto, December 2019.</li></li>
+
+				<li>AMS Fall Central Sectional Meeting, Special Session on Computability Theory in Honor of Steffen Lempp's 60th Birthday.<br>
+					University of Wisconsin&#8211;Madison, September 2019.</li>
+
+				<li>2019 Weak Arithmetic Days (JAF 38).<br>
+					City University of New York Graduate Center, May 2019. <A href="talks/JAF38.pdf">(Slides.)</a></li>
+
+				<li>Langenhop Lecture and SIU Mathematics Conference.<br>
+					Southern Illinois University, May 2019.</li>
+
+				<li>AMS Spring Central and Western Joint Sectional, Special Session on Computability, Complexity, and Learning.<br>
+				University of Hawai&lsquo;i at Manoa, March 2019. <a href="talks/reversesorites.pdf" target="blank">(Slides.)</a></li>
+
+				<li>Measuring the Complexity of Computational Content: From Combinatorial Problems to Analysis.<br>
+				Schloss Dagstuhl Research Center for Computer Science, Germany, September 2018.</li>
+
+				<li>Workshop on Ramsey Theory in Logic, Combinatorics, and Complexity.<br>
+					Bertinoro International Center for Informatics, July 2018. <a href="talks/bertinoro.pdf" target="blank">(Slides.)</a>
+				</li>
+
+				<li>Plenary Speaker, Workshop on Computability Theory and its Applications.<br>University of Waterloo/Fields Institute, June 2018. <a href="talks/Hindman.pdf" target="blank">(Slides.)</a></li>
+
+				<li>ASL Annual Meeting, Special Session on Computability Theory.<br>
+				Western Illinois University, May 2018. <a href="talks/asl2018.pdf" target="blank">(Slides.)</a></li>
+
+				<li>Computability Theory Meeting.<br>
+				Mathematisches Forschungsinstitut Oberwolfach, January 2018.</li>
+
+				<li>11th Panhellenic Logic Symposium, Special Session on Computability Theory.<br>
+				Delphi, Greece, July 2017.</li>
+
+				<li>Plenary Speaker, Seventeenth Latin American Symposium on Mathematical Logic.<br>
+				Benemérita Universidad Autónoma de Puebla, Puebla, Mexico, June 2017.</li>
+
+				<li>AMS Spring Eastern Sectional, Special Session on Computability Theory: Pushing the Boundaries.<br>
+				Hunter College, May 2017. <a href="talks/Joins.pdf" target="blank">(Slides.)</a></li>
+
+				<li>UConn Logic Group/Munich Center for Mathematical Philosophy Joint Conference.<br>
+				University of Connecticut, April 2017.</li>
+
+				<li>Meeting in Honor of Carl Jockusch's 75th Birthday.<br>
+				University of Chicago, October 2016. <a href="talks/Products.pdf" target="blank">(Slides.)</a></li>
+
+				<li>Logic Seminar.<br>
+				University of California, Irvine, October 2016.</li>
+
+				<li>Logic Seminar.<br>
+				Cornell University, September 2016. <a href="talks/uniformorders.pdf" target="blank">(Slides.)</a></li>
+
+				<li>New Challenges in Reverse Mathematics.<br>
+				National University of Singapore, January 2016.</li>
+
+				<li>Logic Seminar.<br>
+				Cornell University, November 2015.</li>
+
+				<li>AMS Fall Central Sectional Meeting, Special Session on Computability Theory and Applications. <a href="talks/DRT.pdf" target="blank">(Slides.)</a>.<br>
+				Loyola University, October 2015.</li>
+
+				<li>Measuring the Complexity of Computational Content: Weihrauch Reducibility and Reverse Analysis. <a href="talks/COHandSRT22.pdf" target="blank">(Slides.)</a>.<br>
+				Schloss Dagstuhl Research Center for Computer Science, Germany, September 2015.</li>
+
+				<li>ASL Annual European Meeting, Special Session on Computability Theory. <a href="talks/reductions.pdf" target="blank">(Slides.)</a>.<br>
+				University of Helsinki, August 2015.</li>
+
+				<li>AMS Spring Eastern Sectional Meeting, Special Session on Computable Structure Theory. <a href="talks/Primes.pdf" target="blank">(Slides.)</a>.<br>
+				Georgetown University, March 2015.</li>
+
+				<li>SouthEAstern Logic Symposium (SEALS). <a href="talks/mathias_ideals.pdf" target="blank">(Slides.)</a>.<br>
+				University of Florida, February 2015.</li>
+
+				<li>Canadian Mathematical Society Winter Meeting, Special Session on Computability Theory.<br>
+				Hamilton, December 2014.</li>
+
+				<li>New England Recursion and Definability Seminar (NERDS).<br>
+				Olin College, March 2014.</li>
+
+				<li>Logic Seminar.<br>
+				University of Notre Dame, March 2014.</li>
+
+				<li>Logic Seminar.<br>
+				Cornell University, February 2014.</li>
+
+				<li>Computability Theory and Foundations of Mathematics Conference.<br>
+				Tokyo Institute of Technology, February 2014.</li>
+
+				<li>CUNY Logic Workshop.<br>
+				City University of New York Graduate Center, February 2014.</li>
+
+				<li>Plenary Speaker, Association for Symbolic Logic Invited Address. <a href="talks/newdirectionsjmm.pdf" target="blank">(Slides.)</a>.<br>
+				Joint Mathematics Meetings, Baltimore, January 2014.</li>
+
+				<li>Logic Seminar.<br>
+				Pennsylvania State University, November 2013.</li>
+
+				<li>Logic Colloquium.<br>
+				University of California, Los Angeles, October 2013.</li>
+
+				<li>New England Recursion and Definability Seminar (NERDS).<br>
+				Dartmouth College, October 2013.</li>
+
+				<li>Southern Wisconsin Logic Colloquium.<br>
+				University of Wisconsin&#8211;Madison, May 2013.</li>
+
+				<li>Buenos Aires Semester in Computability, Complexity and Randomness.<br>
+				Universidad de Buenos Aires, April 2013.</li>
+
+				<li>Institute Colloquium. <a href="talks/newdirections.pdf" target="blank">(Slides.)</a>.<br>
+				Institute for Logic, Language, and Computation, Universiteit van Amsterdam, February 2013.</li>
+
+				<li>Department Colloquium.<br>
+				University of Connecticut, February 2013.</li>
+
+				<li>Logic Seminar. <a href="talks/counting.pdf" target="blank">(Slides.)</a>.<br>
+				The Ohio State University, April 2012.</li>
+
+				<li>Departmental Seminar.<br>
+				Grand Valley State University, March 2012.</li>
+
+				<li>ASL Annual Meeting, Special Session on Computability Theory.<br>
+				University of Wisconsin&#8211;Madison, April 2012.</li>
+
+				<li>Logic Seminar. <a href="talks/weak.pdf" target="blank">(Slides.)</a>.<br>
+				Cornell University, February 2012.</li>
+
+				<li>Computability Theory Meeting. <a href="talks/genericity.pdf" target="blank">(Slides.)</a>.<br>
+				Mathematisches Forschungsinstitut Oberwolfach, February 2012.</li>
+
+				<li>Mid-Atlantic Mathematical Logic Seminar. <a href="talks/applications.pdf" target="blank">(Slides.)</a>.<br>
+				Florida Atlantic University, February 2012.</li>
+
+				<li>Asian Logic Conference.<br>
+				Victoria University of Wellington, December 2011.</li>
+
+				<li>Logic Seminar. (Unable to deliver.).<br>
+				University of Connecticut, February 2011.</li>
+
+				<li>Logic Group Colloquium.<br>
+				University of Connecticut, February 2011.</li>
+
+				<li>Formal Philosophy Workshop. <a href="talks/sorites.pdf" target="blank">(Slides.)</a>.<br>
+				University of Chicago, January 2011.</li>
+
+				<li>AMS Fall Central Sectional Meeting, Special Session on Computability and its Applications. <a href="talks/fip.pdf" target="blank">(Slides.)</a>.<br>
+				University of Notre Dame, November 2010.</li>
+
+				<li>Midwest Computability Workshop. <a href="talks/choice.pdf" target="blank">(Slides.)</a>.<br>
+				University of Chicago, September 2010.</li>
+
+				<li>Workshop on Computability Theory.<br>
+				Universidade dos A&ccedil;ores, July 2010.</li>
+
+				<li>Combinatorics and Logic Seminar.<br>
+				University of Notre Dame, April 2010.</li>
+
+				<li>Eleventh Annual Graduate Student Conference in Logic.<br>
+				University of Wisconsin&#8211;Madison, April 2010.</li>
+
+				<li>SouthEAstern Logic Symposium (SEALS). <a href="talks/measure.pdf" target="blank">(Slides.)</a>.<br>
+				University of Florida, February 2010.</li>
+
+				<li>Department Colloquium. <a href="talks/measuregeneral.pdf" target="blank">(Slides.)</a>.<br>
+				University of Hawai&lsquo;i at Manoa, August 2009.</li>
+
+				<li>Tenth Annual Graduate Student Conference in Logic.<br>
+				University of Illinois at Urbana-Champaign, April 2009.<br>
+
+				<li>Logic Seminar.<br>
+				University of Notre Dame, October 2008.</li>
+
+				<li>Logic Colloquium 2008. <a href="talks/coneavoidance.pdf" target="blank">(Slides.)</a>.<br>
+				Universit&auml;t Bern, July 2008.</li>
+
+				<li>Ninth Annual Graduate Student Conference in Logic.<br>
+				University of Notre Dame, April 2008.</li>
+
+				<li>Chicago Joint Logic Seminar.<br>
+				University of Chicago and University of Illinois at Chicago, April 2008.</li>
+
+				<li>Logic Seminar.<br>
+				University of Illinois at Chicago, November 2007.</li>
+
+			</ol>
+
+		</div>
+
+  </div>
+</body>
+</html>
